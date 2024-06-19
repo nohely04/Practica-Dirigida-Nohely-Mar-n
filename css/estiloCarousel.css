@@ -1,0 +1,16 @@
+.carousel-item {
+    text-align: center;
+    img {
+        max-width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geografía mundial</title> <!-- Título del enlace -->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/estiloContainer.css">
+    <link rel="stylesheet" href="./css/estiloGrid.css">
+    <link rel="stylesheet" href="./css/estiloCarousel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header> 
+        <h1>Geografía general por continentes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./america.html">América</a></li>
+            <li><a href="./europa.html">Europa</a></li>
+            <li><a href="./asia.html">Asia</a></li>
+            <li><a href="./africa.html">África</a></li>
+            <li><a href="./oceania.html">Oceanía</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Concepto</h2>
+        <!-- Container -->
+        <div class="container">
+            <p>INEGI (s.f) señala que: “La geografía es la ciencia que estudia los hechos y fenómenos físicos,
+                biológicos y humanos de la superficie terrestre, atendiendo a las causas que los originan y a su
+                relación con otros hechos o fenómenos”. Entendiendo como hecho geográfico a aquel que ocurre
+                en la superficie terrestre y es caracterizado por ser permanente y estable y cuya formación es un
+                proceso extenso. Por otro lado, un fenómeno geográfico se refiere a un cambio radical que puede
+                observarse en la naturaleza (Diferencias, s.f).</p>
+
+            <img src="./img/Geografía.jpg" alt="Greografría" />
+        </div>
+        <!-- Container -->
+
+        <h2>Importancia</h2>
+        <!-- Grid/Colums -->
+        <div class="grid">
+            <div class="container text-center">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <p>Texto</p>
+                    </div>
+                    <div class="col">
+                        <p>Imagen</p>
+                    </div>
+                    <div class="col">
+                        <p>La geografía tiene gran aplicación en los distintos campos de desarrollo del mundo. Su uso se
+                            extiende desde la adquisición de conocimientos para comprender las dinámicas presentes en el
+                            mundo actual, hasta la identificación y resolución de problemas particulares entre el ser
+                            humano y
+                            el entorno en el que habita. Además, es un punto importante de intersección entre las
+                            Ciencias
+                            sociales y las denominadas Ciencias exactas. Es decir que su área del saber incorpora
+                            herramientas
+                            y conocimientos que ninguna otra ciencia social considera (Editorial Etecé, 2021).</p>
+                    </div>
+                    <div class="col">
+                        <img src="./img/Importancia.jpg" alt="Importancia" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Grid/Colums -->
+        <h2>Continentes</h2>
+        <p>Los continentes son grandes masas de tierra emergidas que constituyen la superficie terrestre,
+            se encuentran divididos por los océanos y se distinguen por un conjunto de características
+            geográficas, culturales sociales, económicas e históricas (Marques, 2023).
+            La geografía desempeña un papel crucial en el análisis y comprensión de la diversidad de los
+            continentes, así como en la exploración de las interacciones entre estos espacios
+            continentales y sus habitantes.</p>
+        <!-- Carousel -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3>Continente Americano</h3>
+                    <img src="./img/Continente americano.jpg" alt="Continente Americano" />
+                </div>
+                <div class="carousel-item ">
+                    <h3>Continente Europeo</h3>
+                    <img src="./img/Continente europeo.jpg" alt="Continente Europeo" />
+                </div>
+                <div class="carousel-item ">
+                    <h3>Continente Africano</h3>
+                    <img src="./img/Continente africano.jpg" alt="Continente Africano" />
+                </div>
+                <div class="carousel-item ">
+                    <h3>Continente Asiático</h3>
+                    <img src="./img/Continente asiático.jpg" alt="Continente Asiático" />
+                </div>
+                <div class="carousel-item ">
+                    <h3>Continente Oceánico</h3>
+                    <img src="./img/Continente oceánico.jpg" alt="Continente Oceánico" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class=" visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class=" visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Carousel -->
+        <footer>
+            <style>
+                footer {
+                    padding: 1em;
+                    background-color: rgb(31, 29, 29);
+                    color: white;
+                }
+            </style>
+            <h2>Acerca de</h2>
+            Diseño de Aplicaciones Web - Exposicion grupo 1
+            <h6>Ariana De los Ángeles Morera Castro </h6>
+            <h6>Jeremy Brenes Alvarado </h6>
+            <h6>Sebastián Torrellas Valera </h6>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

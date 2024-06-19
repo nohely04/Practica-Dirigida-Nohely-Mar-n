@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(249, 249, 249);
+}
+h1 {
+    font-size: 3.75em;
+    padding: 1em;
+    padding-left: 0.5em;
+}
+h2 {
+    font-size: 1.875em;
+    padding-left: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h3 {
+    font-size: 1.4375em;
+    padding-left: 0.5em;
+}
+li {
+    font-size: 1.125em;
+}
+p {
+    font-size: 1.125em;
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Estilo del menú */
+    nav {
+    padding-left: 1em;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #D5C1BD;
+            overflow: hidden;
+            max-width: 35em;
+        }
+
+        li { 
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #333;
+            padding: 0.875em 1em;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #ddd; 
+        }
+    } 
+    
